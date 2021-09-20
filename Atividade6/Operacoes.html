@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com dois valores</title>
+    <style>
+        body {
+            font: normal 18pt Arial;
+            background-color: rgb(79, 190, 241);
+        }
+        input
+        {
+            font: normal 18pt Arial;
+            width: 120px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+        input#txtn2, input#btn{
+            margin-left: 25px;
+        }
+        div
+        {
+            margin-top: 25px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com dois valores</h1>
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Calcular" id="btn" onclick="somar()">
+    <div id="res"><strong>Soma dos dois;</strong></div>
+    <div id="res1"><strong>Subtração do primeiro pelo segundo;</strong></div>
+    <div id="res2"><strong>O produto dos dois;</strong></div>
+    <div id="res3"><strong>A divisão do primeiro pelo segundo;</strong></div>
+    <div id="res4"><strong>O resto da divisão do primeiro pelo segundo.</strong></div>
+
+    <script>
+        function somar()
+        {
+            var tn1 = window.document.getElementById('txtn1');
+            var tn2 = window.document.getElementById('txtn2');
+            var res = window.document.getElementById('res');
+
+            var n1 = Number(tn1.value);
+            var n2 = Number(tn2.value);
+            var s = n1 + n2;
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+            var s = n1 - n2;
+            res1.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+            var s = n1 * n2;
+            res2.innerHTML = `O produto entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+            var s = n1 / n2;
+            res3.innerHTML = `A divisão entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+            var s = n1 % n2;
+            res4.innerHTML = `O resto da divisão entre ${n1} e ${n2} é igual a <strong>${s}</strong>`;
+        }
+    </script>
+
+
+
+</body>
+</html>
