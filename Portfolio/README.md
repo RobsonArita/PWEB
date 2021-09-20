@@ -6,7 +6,7 @@ Criação de um site (portfólio do aluno) com o design com o tema baseado em um
 
 Criar o portfólio baseada na temática do jogo em questão, aproveitando do universo do jogo.
 
-## Personagens planehados: <h2>
+## Personagens planejados: <h2>
 
 * Ei
 * Kazuha
