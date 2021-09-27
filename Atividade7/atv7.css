@@ -1,0 +1,66 @@
+body, h1, h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Nunito";
+}
+
+h1{
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.ntn1{
+    max-width: 960px;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+   
+}
+
+  input[type="radio"] {
+    visibility: hidden;
+}
+
+label {
+display: block;
+border: 10px solid rgb(160, 169, 255);
+width: 200px;
+}
+
+input[type="radio"]:checked+label {
+border-color: rgb(1, 28, 184);
+}
+img {
+height: 150px;
+}
+
+div#res, div#sistema{
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+div#final{
+    font-size: 50px;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 1000;
+}
+
+div#bt{
+    padding: 15px 0;
+    text-align: center;
+
+}
