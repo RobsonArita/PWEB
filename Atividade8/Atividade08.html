@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="atv8.css">
+    <title>Atividade 08</title>
+</head>
+<body>
+    <main>
+    <h1>Pesquisa Incrível</h1>
+    <p>
+    <p>Nome: <input type="text" name="name" id="name"></p>
+    <p>Idade: <input type="text" name="age" id="age"></p>
+    <p>Sexo: <input type="radio" name="h" value="man" id="homen"> Homem <input type="radio" name="h" value="wman" id="mulher"> Mulher</p>
+    <p>Opinião: <input type="radio" name="a" value="a" id="a1"> Péssimo <input type="radio" name="a" value="b" id="a2"> Regular 
+        <input type="radio" name="a" value="c" id="a3"> Bom <input type="radio" name="a" value="d" id="a4"> Ótimo</p>
+    <button onclick="valida_form()" id="sub">Enviar</button>
+    <button onclick="analisa_dados()" id="sub">Analisar</button>
+    </p>
+    <section>
+        <div class="final">
+            <h2 id="resultado"></h2>
+            <p id="valores"></p>
+        </div>
+    </section>
+    </main>
+    <script src="atv8.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    font-family: nunito;
+    font-size: 1.4em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+main{
+    text-align: center;
+    width: 100%;
+    min-height: 8vh;
+    font-size: 0.75em;
+    padding-top: 5px;    
+}
+
+button{
+    margin-top: 10px;
+    font-size: 1.5em;    
+
+    text-decoration: solid;     
+}
+
+
+  
