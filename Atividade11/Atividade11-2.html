@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="atv11-2.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Atividade 11</h1>
+        <p>
+            <h2>Conta</h2>
+            <p>
+            <label>Nome: <input type="text" name="n1" id="n1"></label>
+            </p>
+            <p>
+            <label>Banco: <input type="text" name="n2" id="n2"></label>
+            </p>
+            <p>
+            <label>Numero Conta: <input type="text" name="n3" id="n3"></label>
+            </p>
+            <p>
+            <label>Saldo: <input type="text" name="n4" id="n4"></label>
+            </p>
+        </p>
+            <button id="corrente">Corrente</button>
+            <button id="poupança">Poupança</button>
+            <form id="form_corrente">
+                <h2>Corrente</h2>
+                <p>Saldo Especial: <input type="text" name="n5" id="n5"></p>
+                <button onclick="validac()" id="subc" type="button">Enviar</button>
+            </form>
+            <form id="form_poupança">
+                <h2>Poupança</h2>
+                <p>Juros: <input type="text" name="n6" id="n6"></p>
+                <p>Data Vencimento: <input type="text" name="n6" id="n7"></p>
+                <button onclick="validap()" id="subp" type="button">Enviar</button>
+            </form>
+        <section>
+        <div>
+            <p id="area"></p>
+        </div>
+        </section>
+    </main>
+    <script src="atv11-2.js"></script>
+</body>
+</html>
