@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar objeto Aluno</title>
+    <style>
+        div{
+            font-size: 60px;
+            margin-top: 10px;
+            font-family: Arial;
+        }
+        body{
+             color: rgb(0, 0, 0);
+             background-color: blanchedalmond;
+             font-family: nunito;
+             font-size: 1.4em;
+             font-weight: 500;
+             line-height: 1.2;
+            }
+    </style>
+</head>
+<body>
+    <div id="a1"></div>
+    <div id="a2"></div>
+    <div id="a3"></div>
+    <script>
+        var Aluno01 = new Object();
+        Aluno01.RA = 123456;
+        Aluno01.Nome = "Nome do Aluno";
+
+        var Aluno02 = {
+            RA: 654321,
+            Nome: "Aluno do Nome"
+        };
+
+        var Aluno03 = {};
+        Aluno03["RA"] = 342165;
+        Aluno03["Nome"] = "do Nome Aluno";
+
+        a1.innerHTML = `RA do Aluno01 é: ${Aluno01.RA} e NOME do Aluno01 é: ${Aluno01.Nome}`;
+        a2.innerHTML = `RA do Aluno02 é: ${Aluno02.RA} e NOME do Aluno02 é: ${Aluno02.Nome}`;
+        a3.innerHTML = `RA do Aluno03 é: ${Aluno03.RA} e NOME do Aluno03 é: ${Aluno03.Nome}`;
+    </script>
+</body>
+</html>
