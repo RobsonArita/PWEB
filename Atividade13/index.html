@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Atividade 13</h1>
+        <p>Insira algo: <input type="text" id="ab"></p>
+        <button type="button" id="bau" onclick="upper()">Aplicar UpperCase</button>
+        <button type="button" id="bal" onclick="lower()">Aplicar LowerCase</button>
+    </main>
+</body>
+<script>
+
+function upper(){
+    var a;
+    a = String(document.getElementById('ab').value);
+    a = a.toUpperCase();
+    document.getElementById('ab').value = a;
+}
+function lower(){
+    var a;
+    a = String(document.getElementById('ab').value);
+    a = a.toLowerCase();
+    document.getElementById('ab').value = a;
+}
+</script>
+</html>
