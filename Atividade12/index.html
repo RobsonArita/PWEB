@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade 11</title>
+</head>
+<body>
+    <main>
+        <h1>JANELA</h1>
+    </main>
+    <div class="window">
+        <img src=closed.png class="im1" onmouseover="mouseHover(this)" onmouseleave="mouseOut(this)" onclick="mouseClick(this)">
+    </div>
+</body>
+<script>
+    function mouseHover(img){
+        img.src="opened.png";
+    }
+    function mouseOut(img){
+        img.src="closed.png";
+    }
+    function mouseClick(img){
+        img.src="broked.png"
+    }
+</script>
+</html>
